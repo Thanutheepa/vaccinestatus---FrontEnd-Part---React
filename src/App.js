@@ -1,8 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+
 import React, {useState} from 'react';
-import { getDefaultNormalizer } from '@testing-library/react';
 import LoginForm from './components/LoginForm';
+import Button from 'react-bootstrap/Button';
 
 function App() {
 
@@ -35,7 +34,7 @@ const Logout =() =>{
   return (
     <div className="App">
       {(user.email != "")? (
-        <div className = "welcome">
+        <div className="welcome">
           <h2>Welcome, <span>{user.name}</span></h2>
           <button onClick={Logout}>Logout</button>
         </div>
