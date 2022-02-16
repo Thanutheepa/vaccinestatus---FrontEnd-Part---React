@@ -1,7 +1,14 @@
-
 import React, {useState} from 'react';
 import LoginForm from './components/LoginForm';
-import Button from 'react-bootstrap/Button';
+import {BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
+//import Home from './components/Home';
+import './App.css';
+import Business from './components/Business';
+import Nav from './components/Nav';
+
+
+
+
 
 function App() {
 
@@ -31,17 +38,34 @@ const Login = details => {
 const Logout =() =>{
   setUser({name:"", email:""});
 }
+
+
   return (
-    <div className="App">
-      {(user.email != "")? (
-        <div className="welcome">
-          <h2>Welcome, <span>{user.name}</span></h2>
-          <button onClick={Logout}>Logout</button>
-        </div>
-      ):(
-        <LoginForm Login={Login} error={error}/>
-      )}
-    </div>
+
+    <Router>
+      <div className="App">
+      
+        {(user.email != "")?(
+            <div className="welcome">
+              <Nav/>
+              <h1>Warmly WelCome to the System.</h1>
+              {/* <button onClick={Logout}>Logout</button>   */}
+              
+            </div>
+          ): (
+            <LoginForm Login={Login} error={error}/>
+          )}
+
+            
+        <Routes>
+          {/* <Route path='/' element={<Home/>}/>  */}
+          <Route path='/Business' element={<Business/>}/>
+          {/* <Route path="/Business" element={<Navigate replace to="/" />} /> */}
+        </Routes>
+   
+      </div>
+    </Router>
+    
   );
 }
 

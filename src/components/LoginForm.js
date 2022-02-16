@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 
 
+
 function LoginForm( {Login, error}) {
   const [details, setDetails] = useState({name:"", email:"", password:""});
 
@@ -29,6 +30,8 @@ function LoginForm( {Login, error}) {
         </div>
        <input type ="submit" value ="LOGIN"/>
       </div>
+
+      
     </form>
   )
   

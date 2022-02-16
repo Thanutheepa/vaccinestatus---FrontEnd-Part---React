@@ -1,0 +1,25 @@
+[
+    {
+    "id": 1,
+    "name": "Boston",
+    "address": "BaselStreet,Balangoda,Ratnapura",
+    "phoneNumber": "0123456781",
+    "contactPerson":"Dr.Silva"
+  },
+  {
+    "id": 2,
+    "name": "Kiva",
+    "address": "LiyanegeStreet,Badulla",
+    "phoneNumber": "0123456754",
+    "contactPerson":"Dr.Isuru"
+    
+  },
+  {
+    "id": 3,
+    "name": "Goodwill",
+    "address": "NamalStreet,Colombo",
+    "phoneNumber": "0123456783",
+    "contactPerson":"Dr.Kaliyawansa"
+    
+  }
+]
