@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "userName": "Dorin",
+      "date": "2022-01-30T10:17:26.558467",
+      "vaccineCentreId": 12434,
+      "userId": 1,
+      "vaccineBatchId": 1,
+      "vaccineBatches": null,
+      "medicalInstitutes": null
+    },
+    {
+      "id": 2,
+      "userName": "Shara",
+      "date": "2022-01-30T10:17:26.558468",
+      "vaccineCentreId": 98765,
+      "userId": 2,
+      "vaccineBatchId": 1,
+      "vaccineBatches": null,
+      "medicalInstitutes": null
+    },
+    {
+      "id": 3,
+      "userName": "Tom",
+      "date": "2022-01-30T10:17:26.5584681",
+      "vaccineCentreId": 98765,
+      "userId": 4,
+      "vaccineBatchId": 2,
+      "vaccineBatches": null,
+      "medicalInstitutes": null
+    },
+    {
+      "id": 4,
+      "userName": "Sana",
+      "date": "2022-01-30T10:17:26.5584682",
+      "vaccineCentreId": 98762,
+      "userId": 5,
+      "vaccineBatchId": 3,
+      "vaccineBatches": null,
+      "medicalInstitutes": null
+    }
+  ]

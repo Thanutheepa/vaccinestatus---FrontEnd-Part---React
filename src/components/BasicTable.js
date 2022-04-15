@@ -2,27 +2,30 @@ import React, {useState} from "react";
 import data from "../mock-data.json";
 
 const BasicTable=()=>{
-    const [contacts, setContacts]= useState(data);
+    const [organizations, setOrganizations]= useState(data);
 
 
     return(
         <div className='App-container'>
-      <table>
+      <table className="app-table">
         <thead>
-          <tr>
+          <tr >
             <th>Name</th>
             <th>Address</th>
             <th>PhoneNumber</th>
             <th>ContactPerson</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tbody>
-          {contacts.map((contact)=>(
-            <tr>
-            <td>contact.name</td>
-            <td>contact.address</td>
-            <td>contact.phoneNumber</td>
-            <td>contact.contactPerson</td>
+          {organizations.map((organization, index)=>(
+            <tr key={index}>
+            <td >{organization.name}</td>
+            <td>{organization.address}</td>
+            <td>{organization.phoneNumber}</td>
+            <td>{organization.contactPerson}</td>
+            {/* <td><button >ShowQRCode</button></td> */}
+            <td><button >{organization.Actions}</button></td>
           </tr>
           ))}
           

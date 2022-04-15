@@ -4,14 +4,16 @@
     "name": "Boston",
     "address": "BaselStreet,Balangoda,Ratnapura",
     "phoneNumber": "0123456781",
-    "contactPerson":"Dr.Silva"
+    "contactPerson":"Dr.Silva",
+    "Actions":"ShowQRCode"
   },
   {
     "id": 2,
     "name": "Kiva",
     "address": "LiyanegeStreet,Badulla",
     "phoneNumber": "0123456754",
-    "contactPerson":"Dr.Isuru"
+    "contactPerson":"Dr.Isuru",
+    "Actions":"ShowQRCode"
     
   },
   {
@@ -19,7 +21,51 @@
     "name": "Goodwill",
     "address": "NamalStreet,Colombo",
     "phoneNumber": "0123456783",
-    "contactPerson":"Dr.Kaliyawansa"
+    "contactPerson":"Dr.Kaliyawansa",
+    "Actions":"ShowQRCode"
     
+  },
+
+
+
+  {
+    "id": 1,
+    "userName": "Dorin",
+    "date": "2022-01-30T10:17:26.558467",
+    "vaccineCentreId": 12434,
+    "userId": 1,
+    "vaccineBatchId": 1,
+    "vaccineBatches": null,
+    "medicalInstitutes": null
+  },
+  {
+    "id": 2,
+    "userName": "Shara",
+    "date": "2022-01-30T10:17:26.558468",
+    "vaccineCentreId": 98765,
+    "userId": 2,
+    "vaccineBatchId": 1,
+    "vaccineBatches": null,
+    "medicalInstitutes": null
+  },
+  {
+    "id": 3,
+    "userName": "Tom",
+    "date": "2022-01-30T10:17:26.5584681",
+    "vaccineCentreId": 98765,
+    "userId": 4,
+    "vaccineBatchId": 2,
+    "vaccineBatches": null,
+    "medicalInstitutes": null
+  },
+  {
+    "id": 4,
+    "userName": "Sana",
+    "date": "2022-01-30T10:17:26.5584682",
+    "vaccineCentreId": 98762,
+    "userId": 5,
+    "vaccineBatchId": 3,
+    "vaccineBatches": null,
+    "medicalInstitutes": null
   }
 ]

@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(168, 235, 12);
+    
+  }
+  h1{
+    font-size: 38px;
+  }
+  
+  .User input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(197, 136, 170);
+    color: rgb(201, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .User input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(9, 182, 38);
+    color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .User input[type=submit] {
+    background-color: rgb(75, 10, 180);
+    border: none;
+    color: rgb(185, 223, 16);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    /* cursor: pointer; */
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 22px;
+    width: 90px;
+  }
+  
+  select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(224, 167, 44);
+    color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .container{
+    background-color: rgb(22, 173, 16);
+    border-style: hidden;
+    border-radius: 15px;
+    padding:18px;
+    text-align: center;
+    box-shadow: 0 8px 6px -6px rgb(160, 7, 7);
+    
+   
+    
+  }
+  @media screen and (max-width:900px){
+  
+      .main-contianer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly; 
+        color: aqua;
+        
+      }
+    
+    }
+  
+  

@@ -14,21 +14,23 @@ function LoginForm( {Login, error}) {
   return ( 
     <form onSubmit={submitHandler}>
       <div className = "form-inner">
-        <h2>Login</h2>
+        <h1>Login Page</h1>
         {(error != "") ? (<div className ="error">{error}</div>) : ""}
         <div className="form-group">
-          <label htmlFor="name">Name:</label>
+        <br/><label htmlFor="name">Name:</label>
           <input type="text" name="name" id="name" onChange={e => setDetails({...details, name: e.target.value})} value={details.name} />
-        </div>
+          <br/></div>
         <div className="form-group">
           <label htmlFor="email">Email:</label>
           <input type ="email" name ="email" id="email" onChange={e => setDetails({...details, email: e.target.value})} value={details.email}/>
-        </div>
+          <br/></div>
         <div className="form-group">
           <label htmlFor="password">Password:</label>
           <input type ="password" name ="password" id="password" onChange={e => setDetails({...details, password: e.target.value})} value={details.password}/>
-        </div>
+          <br/></div>
        <input type ="submit" value ="LOGIN"/>
+       <br/>
+       <br/>
       </div>
 
       
